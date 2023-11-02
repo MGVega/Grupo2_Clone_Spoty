@@ -12,5 +12,30 @@
 
 body {
     font-family: sans-serif;
-    background-color: var(--color-azul-oscuro);
+    background-color: var(--color-navegador);
 }
+
+.i_todo {
+    display: flex;
+    flex-direction: row;
+}
+
+.i_seccion-izquierda, .i_seccion-derecha {
+    margin: .5rem;
+    background-color: var(--color-background);
+    min-height: 100vh;
+    border-radius: 15px;
+
+}
+
+.i_seccion-izquierda {
+    min-width: 20%;
+    min-height: 97vh;
+}
+
+.i_seccion-derecha {
+    min-width: 77%;
+    min-height: 97vh;
+}
+
+.i_arriba
