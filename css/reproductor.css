@@ -1,0 +1,42 @@
+:root {
+    --color-background: #242331;
+    --color-navegador: #212121;
+    --color-letra: #F2F7F2;
+    --color-boton: #FF6542;
+    --color-boton-hover: #ff441a;
+}
+
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--color-navegador);
+}
+
+.r_cuerpo{
+
+}
+
+.r_principal{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 100vh;
+    background-color: var(--color-background);
+}
+
+.r_BORRAR, .r_musica{
+    margin: .5rem;
+    background-color: var(--color-background);
+    height: 100vh;
+    border-radius: 15px;
+}
+
+.r_BORRAR{
+    width: 20%;
+    height: 97vh;
+}
+
