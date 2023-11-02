@@ -38,4 +38,12 @@ body {
     min-height: 97vh;
 }
 
-.i_arriba
+.i_arriba-derecha {
+    width: 77%;
+    height: 100px;
+    background-color: var(--color-background);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 1rem;
+    border-bottom: 1px solid var(--color-navegador);
+}
