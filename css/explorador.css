@@ -1,0 +1,24 @@
+:root {
+    --color-azul-oscuro: #242331;
+    --color-negro: #000;
+    --color-crema: #F2F7F2;
+    --color-naranja: #FF6542;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: var();
+    width: 100%;
+    height: 100%;
+}
+.E-ContenedorPrincipal{
+    
+    color: white;
+
+}
+E-ContenedoresImagenes{
+    
+}
