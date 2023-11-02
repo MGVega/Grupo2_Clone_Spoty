@@ -1,0 +1,15 @@
+:root {
+    --color-azul-oscuro: #242331;
+    --color-negro: #212121;
+    --color-crema: #F2F7F2;
+    --color-naranja: #FF6542;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--color-azul-oscuro);
+}
