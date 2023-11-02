@@ -1,8 +1,9 @@
 :root {
-    --color-azul-oscuro: #242331;
-    --color-negro: #212121;
-    --color-crema: #F2F7F2;
-    --color-naranja: #FF6542;
+    --color-background: #242331;
+    --color-navegador: #212121;
+    --color-letra: #F2F7F2;
+    --color-boton: #FF6542;
+    --color-boton-hover: #ff441a;
 }
 
 * {
