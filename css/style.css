@@ -75,6 +75,11 @@ body {
     transition: .3s ease-in-out;
 }
 
+#i_extra {
+    align-items: center;
+    font-weight: 700;
+}
+
 .i_li-opciones:hover {
     transform: scale(1.1);
     cursor: pointer;
@@ -98,6 +103,7 @@ body {
 .i_opciones button:hover {
     transform: scale(1.06);
     background-color: var(--color-boton-hover);
+    cursor: pointer;
 }
 
 .i_medio-derecha {
@@ -181,3 +187,31 @@ body {
     transform: scale(1.08);
     background-color: var(--color-boton-hover);
 }
+
+.i_abajo-derecha {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 5px;
+    width: 150px;
+    gap: 5rem;
+}
+
+.i_abajo-tarjeta {
+    min-width: 156px;
+}
+
+.i_abajo-tarjeta h4, p{
+    margin-bottom: 10px;
+}
+
+.i_abajo-tarjeta p{
+    color: var(--color-letra2);
+}
+
+.i_abajo-tarjeta p:hover {
+    color: var(--color-letra);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
