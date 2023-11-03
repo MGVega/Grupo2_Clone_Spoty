@@ -4,6 +4,7 @@
     --color-letra: #F2F7F2;
     --color-boton: #FF6542;
     --color-boton-hover: #ff441a;
+    --color-letra2: #A6A6A6;
 }
 
 * {
@@ -13,6 +14,7 @@
 body {
     font-family: sans-serif;
     background-color: var(--color-navegador);
+    color: var(--color-letra);
 }
 
 .i_todo {
@@ -39,11 +41,143 @@ body {
 }
 
 .i_arriba-derecha {
-    width: 77%;
-    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 60px;
     background-color: var(--color-background);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     padding: 1rem;
-    border-bottom: 1px solid var(--color-navegador);
+}
+
+.i_flechas {
+    padding: 15px;
+}
+
+.i_flechas:hover {
+    cursor: pointer;
+}
+
+.i_opciones {
+    color: #A6A6A6;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.i_li-opciones {
+    padding: 10px;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+}
+
+.i_li-opciones:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    color: var(--color-letra);
+}
+
+.i_opciones button {
+    color: var(--color-letra);
+    background-color: var(--color-boton);
+    border-radius: 30px;
+    border: 1px solid var(--color-navegador);
+    margin-left: 20px;
+    padding: 10px;
+    height: 45px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bolder;
+    transition: .3s ease-in-out;
+}
+
+.i_opciones button:hover {
+    transform: scale(1.06);
+    background-color: var(--color-boton-hover);
+}
+
+.i_medio-derecha {
+    padding: 1rem;
+    width: 100% - 90px;
+    height: 800px;
+    background: rgb(36,35,49);
+    background: linear-gradient(0deg, rgba(36,35,49,1) 71%, rgba(45,45,55,1) 95%);
+}
+
+.i_medio-derecha h2 {
+    width: 193px;
+}
+
+.i_medio-derecha h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.i_listas {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.i_tarjetas {
+    background-color: rgb(40, 38, 59);
+    padding: 20px;
+    margin: 10px;
+    width: 150px;
+    border-radius: 13px;
+    transition: .2s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.i_tarjetas:hover {
+    background-color: rgb(54, 52, 77);
+    cursor: pointer;
+}
+
+.i_tarjetas h4 {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.i_tarjetas p {
+    font-size: smaller;
+    color: var(--color-letra2);
+}
+
+.i_tarjetas img {
+    border-radius: 13px;
+    width: 100%;
+}
+
+.i_play-icon {
+    position: absolute;
+    bottom: 105px;
+    right: 30px;
+    background-color: var(--color-boton);
+    border-radius: 50%;
+    padding: 15px;
+    z-index: 1;   
+    visibility: hidden; 
+    transition: 0.3s ease-in-out; 
+    opacity: 0; 
+}
+
+.i_tarjetas:hover .i_play-icon {
+    visibility: visible;
+    opacity: 1; 
+}
+
+.i_play-icon i {
+    color: white;
+    font-size: 24px;
+}
+
+.i_play-icon:hover {
+    transform: scale(1.08);
+    background-color: var(--color-boton-hover);
 }
