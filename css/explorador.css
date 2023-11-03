@@ -20,6 +20,27 @@ body {
 
 .E-izq {
     flex: 1;
+    
+}
+.E-ContenedorIconosIzq{
+    margin: 7px;
+
+}
+.E-icons{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--color-navegador);
+    padding: 20px;
+    
+}
+.E-icons p:hover{
+    font-weight: bold;
+}
+.E-ContenedorIconosIzq a {
+    text-decoration: none;
+    color: var(--color-letra);
+
 }
 
 .E-derecha {
@@ -32,7 +53,9 @@ body {
     background-color: var(--color-background);
 }
 
-.E-ContenedorPrincipal h2 {}
+.E-ContenedorPrincipal h2 {
+    margin-left: 60px;
+}
 
 E-ContenedoresImagenes {
     width: 200px;
