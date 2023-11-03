@@ -126,7 +126,7 @@ body {
 .i_tarjetas {
     background-color: rgb(40, 38, 59);
     padding: 20px;
-    margin: 10px;
+    margin: 5px;
     width: 150px;
     border-radius: 13px;
     transition: .2s ease-in-out;
