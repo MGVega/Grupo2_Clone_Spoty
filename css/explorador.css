@@ -26,16 +26,30 @@ body {
     margin: 7px;
 
 }
+.E-TodosIcons{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: var(--color-navegador);
+
+}
 .E-icons{
     display: flex;
     align-items: center;
     flex-direction: row;
-    background-color: var(--color-navegador);
+    
     padding: 20px;
+   
     
 }
 .E-icons p:hover{
     font-weight: bold;
+}
+.E-TodosIcons .E-icons .E-solouso{
+    display: flex;
+    align-items: center;
+}
+.E-solouso img{
+    padding-left:20px;
 }
 .E-ContenedorIconosIzq a {
     text-decoration: none;
