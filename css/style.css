@@ -175,12 +175,13 @@ body {
     z-index: 1;   
     visibility: hidden; 
     transition: 0.3s ease-in-out; 
-    opacity: 0; 
+    opacity: 0;
 }
 
 .i_tarjetas:hover .i_play-icon {
     visibility: visible;
     opacity: 1; 
+    animation: aparecer .5s ease-in-out;
 }
 
 .i_play-icon i {
