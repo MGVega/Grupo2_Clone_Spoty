@@ -142,7 +142,10 @@ body {
 
 
 
-
+.E-medio{
+    
+    background: linear-gradient(0deg, rgba(36,35,49,1) 71%, rgba(45,45,55,1) 95%);
+}
 
 .E-ContenedorPrincipal {
     display: flex;
