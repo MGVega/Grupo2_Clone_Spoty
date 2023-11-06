@@ -1,5 +1,6 @@
 :root {
     --color-background: #242331;
+    --color-background-claro: rgb(54, 52, 77);
     --color-navegador: #212121;
     --color-letra: #F2F7F2;
     --color-boton: #FF6542;
@@ -9,6 +10,7 @@
 
 * {
     margin: 0;
+    overflow-x: hidden;
 }
 
 body {
@@ -146,7 +148,7 @@ body {
 }
 
 .i_tarjetas:hover {
-    background-color: rgb(54, 52, 77);
+    background-color: var(--color-background-claro);
     cursor: pointer;
 }
 
@@ -306,4 +308,144 @@ body {
   
 ::-webkit-scrollbar-thumb:hover {
     background: var(--color-boton-hover);
+}
+
+.i_seccion-izquierda {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-navegador);
+    gap: 15px;
+}
+
+.i_izq-primero, .i_izq-segundo {
+    background-color: var(--color-background);
+    border-radius: 13px;
+}
+
+.i_izq-primero {
+    display: flex;
+    flex-direction: column;
+}
+
+.i_spotify a {
+    text-decoration: none;
+    color: var(--color-letra);
+    padding: 10px 20px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.i_spotify p {
+    font-weight: bolder;
+}
+
+.i_spotify img {
+    height: 35px;
+}
+
+.i_izq-elementos {
+    font-size: 24px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.i_izq-elementos a {
+    color: var(--color-letra2);
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: baseline;
+    transition: .3s ease-in-out;
+}
+
+.i_izq-elementos p {
+    font-size: 16px;
+}
+
+.i_izq-elementos:hover a {
+    color: var(--color-letra);
+}
+
+.i_izq-elementos:hover {
+    cursor: pointer;
+}
+
+.i_biblioteca-dentro {
+    border-radius: 13px;
+    background-color: var(--color-background-claro);
+    margin: 10px;
+    padding: 20px;
+}
+
+.i_biblioteca-dentro h4 {
+    margin-bottom: 10px;
+}
+
+.i_biblioteca-dentro p {
+    font-size: 14px;
+}
+
+.i_biblioteca-dentro button {
+    border-radius: 20px;
+    width: 100px;
+    border: none;
+    height: 35px;
+    color: var(--color-letra);
+    font-weight: 700;
+    background-color: var(--color-boton);
+    transition: .3s ease-in-out;
+}
+
+.i_biblioteca-dentro .i_boton-2 {
+    width: 150px;
+}
+
+.i_biblioteca-dentro button:hover {
+    transform: scale(1.02);
+    background-color: var(--color-boton-hover);
+    cursor: pointer;
+}
+
+.i_izq-tercero {
+    background-color: var(--color-background);
+    border-radius: 13px;
+    padding: 10px;
+    text-align: center;
+}
+
+.i_izq-tercero p{
+    font-size: small;
+    color: var(--color-letra2);
+}
+
+.i_izq-tercero p:hover {
+    color: var(--color-letra);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.i_izq-tercero-boton {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--color-background);
+    color: var(--color-letra);
+    border-radius: 20px;
+    border: 1px solid var(--color-letra2);
+    padding: 10px;
+    margin: 0 auto;
+    transition: .2s ease-in-out;
+}
+
+.i_izq-tercero-boton:hover {
+    transform: scale(1.02);
+    border: 1px solid var(--color-letra);
+    color: var(--color-letra);
+    cursor: pointer;
 }
