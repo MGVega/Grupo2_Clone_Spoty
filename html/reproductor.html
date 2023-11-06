@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reproductor</title>
     <link rel="stylesheet" href="../css/reproductor.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
@@ -15,7 +16,27 @@
             <div class="r_principal">
                 <div class="r_listado">
                     <div class="r_en_curso">
-
+                        <div class="r_curso_control">
+                            <div class="r_izq">
+                                <img src="../images/icons/previous.png"></img>
+                                <img src="../images/icons/next.png"></img>
+                            </div>
+                            <div class="r_der">
+                                <img src="../images/icons/bell.png"></img>
+                                <img src="../images/icons/users.png"></img>
+                                <img src="../images/icons/user.png"></img>
+                            </div>
+                        </div>
+                        <div class="r_curso_banner">
+                            <div class="r_curso_like">
+                                <img src="../images/icons/heart.png">
+                            </div>
+                            <div class="r_curso_titulo">
+                                <p>Lista</p>
+                                <h1 class="r_curso_grande"><b>Canciones que te gustan</b></h1>
+                                <p><b>Grupo 2 · 358 canciones</b></p>
+                            </div>
+                        </div>
                     </div>
                     <div class="r_control">
                         <div class="r_controlPlay1">
@@ -24,7 +45,8 @@
                         </div>
                         <div class="r_controlPlay2">
                             <img class="r_mini" src="../images/icons/buscar.png">
-                            <p>Fecha en la que se añadió</p><img class="r_mini" src="../images/icons/order-down.png">
+                            <p>Fecha en la que se añadió</p><img class="r_flecha_abajo"
+                                src="../images/icons/order-down.png">
                         </div>
                     </div>
                     <div class="r_pistas">
@@ -113,13 +135,26 @@
                     </div>
                 </div>
                 <div class="r_anuncio">
-
+                    <div class="r_close">
+                        <p>Sponsor</p>
+                        <img src="../images/icons/close.png">
+                    </div>
+                    <div class="r_sponsor">
+                        <img src="../images/reproductor/cola_ad.jpg">
+                        <img src="../images/reproductor/tesla.jpg">
+                        <img src="../images/reproductor/phone_ad.jpg">
+                    </div>
                 </div>
             </div>
         </div>
         <div class="r_controles">
-            <div class="r_cancion_actual"></div>
-            <div class="r_acciones"></div>
+            <div class="r_cancion_actual">
+                <img src="../images/reproductor/Dead_End_Kings.jpg">
+                <div><p><b>Katatonia</b></p>
+                <p>Dead End Kings</p></div>
+            </div>
+            <div class="r_acciones">
+            </div>
             <div class="r_configuracion"></div>
         </div>
     </div>
