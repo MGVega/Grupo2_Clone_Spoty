@@ -14,7 +14,7 @@
 
 body {
     font-family: sans-serif;
-    background-color: var(--color-background);
+    background-color: var(--color-navegador);
     color: var(--color-letra);
 }
 
@@ -29,7 +29,7 @@ body {
 .E-TodosIcons{
     border-radius: 10px;
     margin-bottom: 10px;
-    background-color: var(--color-navegador);
+    background-color: var(--color-background);
 
 }
 .E-icons{
@@ -41,6 +41,26 @@ body {
    
     
 }
+.E-icons1{
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.E-icons1 h4{
+    padding-bottom: 20px;
+}
+.E-icons1 h5{
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-weight: normal;
+}
+.E-icons1 button{
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 4px;
+
+}
 .E-icons p:hover{
     font-weight: bold;
 }
@@ -49,7 +69,7 @@ body {
     align-items: center;
 }
 .E-solouso img{
-    padding-left:20px;
+    padding-left: 60px;
 }
 .E-ContenedorIconosIzq a {
     text-decoration: none;
@@ -64,7 +84,7 @@ body {
 .E-ContenedorPrincipal {
     display: flex;
     color: white;
-    background-color: var(--color-background);
+    background-color: var(--color-navegador);
 }
 
 .E-ContenedorPrincipal h2 {
@@ -99,8 +119,13 @@ E-ContenedoresImagenes {
     font-size: 28px;
 }
 
-E-ContenedoresImagenes {}
-
+.E-ContenedoresImagenes{
+    
+}
+.E-ContenedoresImagenes img:hover{
+    border-radius: 20px;
+  
+}
 .E-ContenedorCada5 {
     display: flex;
     align-items: flex-start;
