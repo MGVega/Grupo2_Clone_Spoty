@@ -80,6 +80,56 @@ body {
 .E-derecha {
     flex: 3;
 }
+.E-arribaderecha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 60px;
+    background-color: var(--color-background);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 1rem;
+}
+.E-flechas{
+    padding: 15px;
+
+}
+.E-opciones{
+    color: #A6A6A6;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.E-li-opciones{
+    padding: 10px;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+}
+.E-extra{
+    align-items: center;
+    font-weight: 700;
+
+}
+.E-opciones button{
+    border-radius: 30px;
+    margin-left: 20px;
+    padding: 10px;
+    height: 48px;
+    font-size: 15px;
+    font-weight: bolder;
+    transition: .3s ease-in-out;
+    color: var(--color-letra);
+    background-color: var(--color-boton);
+    width: 160px;
+    border: 1px solid var(--color-navegador)
+}
+
+
+
+
 
 .E-ContenedorPrincipal {
     display: flex;
@@ -118,7 +168,7 @@ E-ContenedoresImagenes {
     font-weight: bold;
     /* display: flex; */
     position: absolute;
-    margin-top: -269px;
+    margin-top: -261px;
     margin-left: 45px;
     font-size: 29px;
 }
