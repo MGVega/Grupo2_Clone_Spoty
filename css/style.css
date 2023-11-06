@@ -10,7 +10,7 @@
 
 * {
     margin: 0;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 body {
@@ -409,5 +409,43 @@ body {
 .i_biblioteca-dentro button:hover {
     transform: scale(1.02);
     background-color: var(--color-boton-hover);
+    cursor: pointer;
+}
+
+.i_izq-tercero {
+    background-color: var(--color-background);
+    border-radius: 13px;
+    padding: 10px;
+    text-align: center;
+}
+
+.i_izq-tercero p{
+    font-size: small;
+    color: var(--color-letra2);
+}
+
+.i_izq-tercero p:hover {
+    color: var(--color-letra);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.i_izq-tercero-boton {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--color-background);
+    color: var(--color-letra);
+    border-radius: 20px;
+    border: 1px solid var(--color-letra2);
+    padding: 10px;
+    margin: 0 auto;
+    transition: .2s ease-in-out;
+}
+
+.i_izq-tercero-boton:hover {
+    transform: scale(1.02);
+    border: 1px solid var(--color-letra);
+    color: var(--color-letra);
     cursor: pointer;
 }
