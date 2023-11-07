@@ -106,7 +106,7 @@ body {
     background-color: var(--color-navegador);
     border: none;
     border: 1px solid white;
-    padding: 12px;
+    padding: 10px 60px;
     padding-right: 90px;
 }
 .E-opciones{
@@ -143,8 +143,16 @@ body {
 
 
 .E-medio{
-    
-    background: linear-gradient(0deg, rgba(36,35,49,1) 71%, rgba(45,45,55,1) 95%);
+    margin-top: 5px;
+    width: 97%;
+    background: linear-gradient(0deg, rgba(36,35,49,1) 71%, rgba(45,45,55,1) 95%);}
+.E-explo{
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .E-ContenedorPrincipal {
@@ -154,7 +162,7 @@ body {
 }
 
 .E-ContenedorPrincipal h2 {
-    margin-left: 60px;
+    margin-left: -706px;
 }
 
 E-ContenedoresImagenes {
