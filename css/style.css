@@ -106,7 +106,7 @@ body {
 }
 
 .i_opciones button:hover {
-    transform: scale(1.06);
+    transform: scale(1.02);
     background-color: var(--color-boton-hover);
     cursor: pointer;
 }
