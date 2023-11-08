@@ -19,7 +19,8 @@ body {
 }
 
 .E-izq {
-    flex: 1;
+    width: 33%;
+    height: 100%    ;
     
 }
 .E-ContenedorIconosIzq{
@@ -78,7 +79,8 @@ body {
 }
 
 .E-derecha {
-    flex: 3;
+    width: 77%;
+    height: 100%;
 }
 .E-arribaderecha{
     display: flex;
