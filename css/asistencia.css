@@ -22,11 +22,16 @@ background-color: var(--color-navegador);
     color:var(--color-letra);
 }
 
+#cabecera a{
+    text-decoration:none;
+}
+
 #cabecera h4:hover{
     color:var(--color-letra2);
     cursor:pointer;
     scale:1.2;
     transition:scale 0.5s;
+    
 }
 
 #logo{
@@ -96,13 +101,11 @@ background-color: var(--color-navegador);
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0,0.0), inset 0px 0px 0px 0px rgba(0, 0, 0,0.2 );
     border-radius:5px;
     background-color:var(--color-navegador);
-   
-    
 }
 
 #buscar img{
     margin-top:7px;
-    left:560px;
+    left:510px;
     display: flex;
     position: absolute;
 
@@ -132,6 +135,30 @@ background-color: var(--color-navegador);
 .cajas_ayuda img{
     margin-left:10px;
     border-radius:2px;
+}
+
+#caja1{
+background-color:#009BC4 ;
+}
+
+#caja2{
+    background-color:#BDD12A ;
+}
+
+#caja3{
+    background-color:#D75F0C ;
+}
+
+#caja4{
+    background-color:#9207CA ;
+}
+
+#caja5{
+    background-color:#D24EB8 ;
+}
+
+#caja6{
+    background-color:#07B683 ;
 }
 
 .cajas_ayuda:hover{
