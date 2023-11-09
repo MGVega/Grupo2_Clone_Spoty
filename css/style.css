@@ -10,13 +10,13 @@
 
 * {
     margin: 0;
-    overflow-x: hidden;
 }
 
 body {
     font-family: sans-serif;
     background-color: var(--color-navegador);
     color: var(--color-letra);
+    overflow-x: hidden;
 }
 
 .i_todo {
@@ -417,6 +417,19 @@ body {
     border-radius: 13px;
     padding: 10px;
     text-align: center;
+}
+
+.i_izq-cuarto {
+    width: 100%;
+    height: 400px;
+    background-color: var(--color-background);
+    border-radius: 13px;
+}
+
+.i_izq-cuarto img {
+    width: 100%;
+    height: 100%;
+    border-radius: 13px;
 }
 
 .i_izq-tercero p{
