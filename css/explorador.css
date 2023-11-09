@@ -84,6 +84,7 @@ body {
     background-color: var(--color-background);
     min-height: 100vh;
     border-radius: 15px;
+    width: 77%;
 }
 .E-arribaderecha{
     display: flex;
@@ -208,7 +209,8 @@ E-ContenedoresImagenes {
 }
 .E-ContenedorCada5 .E-ContenedoresImagenes img:hover{
     border-radius: 20px;
-  
+    box-shadow: -24px -17px 63px -25px #ff441a;
+
     transition: 0.8s;
   
 }
