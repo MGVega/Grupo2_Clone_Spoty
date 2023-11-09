@@ -17,12 +17,12 @@ body {
     background-color: var(--color-navegador);
     color: var(--color-letra);
 }
-
-.E-izq {
-    width: 33%;
-    height: 100%    ;
-    
+.e_seccion-izquierda {
+    min-width: 20%;
+    min-height: 97vh;
 }
+
+
 .E-ContenedorIconosIzq{
     margin: 7px;
 
@@ -80,8 +80,10 @@ body {
 }
 
 .E-derecha {
-    width: 77%;
-    height: 100%;
+    margin: .5rem;
+    background-color: var(--color-background);
+    min-height: 100vh;
+    border-radius: 15px;
 }
 .E-arribaderecha{
     display: flex;
@@ -110,6 +112,7 @@ body {
     border: none;
     border: 1px solid white;
     padding: 10px 60px;
+    color: white;
     padding-right: 90px;
 }
 .E-opciones{
@@ -147,7 +150,7 @@ body {
 
 .E-medio{
     margin-top: 5px;
-    width: 97%;
+    width: 100%;
     background: linear-gradient(0deg, rgba(36,35,49,1) 71%, rgba(45,45,55,1) 95%);}
 .E-explo{
     display: flex;

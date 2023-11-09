@@ -80,6 +80,7 @@ background-color: var(--color-navegador);
 
 #ayuda input[type=text]{
     float: right;
+    color: white;
     padding: 6px;
     border: none;
     margin-top: 8px;
