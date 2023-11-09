@@ -112,9 +112,11 @@ body {
     background-color: var(--color-navegador);
     border: none;
     border: 1px solid white;
-    padding: 10px 60px;
+    padding: 12px 109px;
     color: white;
     padding-right: 90px;
+    /* display: flex; */
+    margin-right: 190px;;
 }
 .E-opciones{
     color: #A6A6A6;
