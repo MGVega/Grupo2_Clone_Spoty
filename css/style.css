@@ -532,7 +532,7 @@ body {
     margin: .5rem;
     border-radius: 15px;
     height: 97vh;
-    animation: movedAnuncio 1s;
+    animation: movedAnuncio 2.5s;
 }
 
 @keyframes movedAnuncio {
