@@ -35,14 +35,27 @@ body {
 
 }
 
+@keyframes aparecer2 {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1; 
+    }
+  }
+
 .i_seccion-izquierda {
     min-width: 20%;
     min-height: 97vh;
+    animation: aparecer2 2.5s ease-in-out;
 }
 
 .i_seccion-derecha {
     min-width: 77%;
     min-height: 97vh;
+    animation: aparecer 2.5s ease-in-out;
 }
 
 .i_arriba-derecha {
@@ -121,7 +134,6 @@ body {
     height: 800px;
     background: rgb(36,35,49);
     background: linear-gradient(0deg, rgba(36,35,49,1) 71%, rgba(45,45,55,1) 95%);
-    animation: aparecer 2.5s ease-in-out;
 }
 
 .i_medio-derecha h2 {
@@ -897,6 +909,7 @@ body {
     min-height: 100vh;
     border-radius: 15px;
     width: 77%;
+    animation: aparecer 2.5s ease-in-out;
 }
 .E-arribaderecha{
     display: flex;
@@ -966,7 +979,8 @@ body {
 .E-medio{
     margin-top: 5px;
     width: 100%;
-    background: linear-gradient(0deg, rgba(36,35,49,1) 71%, rgba(45,45,55,1) 95%);}
+    background: linear-gradient(0deg, rgba(36,35,49,1) 71%, rgba(45,45,55,1) 95%);
+}
 .E-explo{
     display: flex;
     padding-top: 30px;
