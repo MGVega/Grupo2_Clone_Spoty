@@ -2,7 +2,7 @@
  
 Clon de Spotify
 
-Iván - Asistencia y Navegador
+Iván - Asistencia
 Abdón - Home/Index
 Miguel - Explorador
 Mario - Reproductor
