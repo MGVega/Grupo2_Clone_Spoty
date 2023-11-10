@@ -1183,10 +1183,15 @@ body {
         height: 100px;
         width: 310px;
         margin: 10px;
-        margin-left: 86px;
+        margin-left: 66px;
         border-radius: 5px;
+       
     }
     
+    .cajas_ayuda a{
+        text-decoration:none;
+        color:var(--color-letra);
+    }
     
     .cajas_ayuda img{
         margin-left:10px;
@@ -1223,14 +1228,16 @@ body {
     }
     
     #espacio_cajas{
+        width: 100wd;
         display: flex;
-        justify-content: center;
         align-items: center;
         flex-direction: row;
+        width: 1540px;
+        height: 440px;
+        align-content: center;
         flex-wrap: wrap;
-        margin-left:41px;
-        width:1540px;
-        height:440px;
+        margin-right: 40px;
+        justify-content: center;
     }
     
     #color_fondo{
