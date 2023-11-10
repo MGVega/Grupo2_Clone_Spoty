@@ -1115,14 +1115,10 @@ body {
         display:flex;
         justify-content:center;
         color:var(--color-letra2);
-        
     }
     
-    #ayuda h3:hover{
+    #ayuda a{
         color:var(--color-letra);
-        cursor:pointer;
-        scale:1.2;
-        transition:scale 0.3s;
     }
     
     #ayuda input[type=text]{
@@ -1232,12 +1228,13 @@ body {
         align-items: center;
         flex-direction: row;
         flex-wrap: wrap;
+        margin-left:41px;
         width:1540px;
         height:440px;
     }
     
     #color_fondo{
-        height: 403px;
+        height: 473px;
         width:100wd;
         display: flex;
         justify-content: center;
@@ -1250,7 +1247,12 @@ body {
     
     #color_fondo h3{
         align-items:center;
+       
         color:var(--color-letra);
+    }
+
+    #color_fondo a{
+        text-decoration:none;
     }
     
     #color_fondo h2{
@@ -1269,9 +1271,21 @@ body {
         cursor:pointer;
         color:var(--color-letra2);
     }
-    
+
+    .flecha{
+        height: 1px;
+        margin-top: -15px;
+        justify-content: flex-start;
+        display: flex;
+        align-items: flex-end;
+        margin-left: 700px;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
     #comunidad{
-        height:290px;
+        height:330px;
         display:flex;
         text-align: center;
         justify-content:center;
@@ -1280,6 +1294,8 @@ body {
         background-color:var(--color-background);
     }
     
+    
+
     #comunidad h1, #comunidad h5{
         display: inline-block;
         white-space: nowrap;
