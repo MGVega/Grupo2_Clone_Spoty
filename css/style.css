@@ -73,10 +73,30 @@ body {
 
 .i_flechas {
     padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 3%;
+}
+
+.i_flechas img{
+    margin: 5px;
 }
 
 .i_flechas:hover {
     cursor: pointer;
+}
+
+.x_cambio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    margin-right: 200px !important;
+}
+
+.x_cambio span{
+    margin-right: 10px;
 }
 
 .i_opciones, .i_opciones a{
@@ -84,8 +104,9 @@ body {
     color: #A6A6A6;
     list-style: none;
     display: flex;
-    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .i_li-opciones {
