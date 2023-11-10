@@ -73,30 +73,10 @@ body {
 
 .i_flechas {
     padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    margin-left: 3%;
-}
-
-.i_flechas img{
-    margin: 5px;
 }
 
 .i_flechas:hover {
     cursor: pointer;
-}
-
-.x_cambio{
-    display: flex;
-    align-items: center;
-    justify-content: space-between !important;
-    margin-right: 200px !important;
-}
-
-.x_cambio span{
-    margin-right: 10px;
 }
 
 .i_opciones, .i_opciones a{
@@ -104,9 +84,8 @@ body {
     color: #A6A6A6;
     list-style: none;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
 }
 
 .i_li-opciones {
@@ -1204,15 +1183,10 @@ body {
         height: 100px;
         width: 310px;
         margin: 10px;
-        margin-left: 66px;
+        margin-left: 86px;
         border-radius: 5px;
-       
     }
     
-    .cajas_ayuda a{
-        text-decoration:none;
-        color:var(--color-letra);
-    }
     
     .cajas_ayuda img{
         margin-left:10px;
@@ -1249,16 +1223,14 @@ body {
     }
     
     #espacio_cajas{
-        width: 100wd;
         display: flex;
+        justify-content: center;
         align-items: center;
         flex-direction: row;
-        width: 1540px;
-        height: 440px;
-        align-content: center;
         flex-wrap: wrap;
-        margin-right: 40px;
-        justify-content: center;
+        margin-left:41px;
+        width:1540px;
+        height:440px;
     }
     
     #color_fondo{
