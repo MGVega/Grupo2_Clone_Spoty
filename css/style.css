@@ -1187,9 +1187,7 @@ body {
         height: 100px;
         width: 310px;
         margin: 10px;
-        margin-bottom: 15px;
-        margin-right: -32px;
-        margin-left: 109px;
+        margin-left: 86px;
         border-radius: 5px;
     }
     
@@ -1234,7 +1232,6 @@ body {
         align-items: center;
         flex-direction: row;
         flex-wrap: wrap;
-        margin-right:50px;
         width:1540px;
         height:440px;
     }
